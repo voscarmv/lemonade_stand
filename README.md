@@ -12,7 +12,7 @@ To demonstrate how NFTs can be connected with the real world via computer termin
 
 # Example
 
-This repo contains the working example of a ["Spirit box"](https://www.youtube.com/watch?v=tQ3fKc17BIU) NFT. If you've watched ghost hunters like [Shane and Ryan](https://www.youtube.com/watch?v=XHXLbp7x3MM) use it, you should know the basic principle of operation.
+This repo contains the working example of a ["Spirit box"](https://www.youtube.com/watch?v=tQ3fKc17BIU) NFT. If you've watched ghost hunters like [Shane and Ryan](https://www.youtube.com/watch?v=XHXLbp7x3MM) use it, you should know the basic principle of operation 👻.
 
 But, how do you connect a spirit box to an NFT? - you ask. Well, the NFT is initially listed on OpenSea with no metadata, and a message that reads "Purchase this NFT to generate your spirit box .wav file!".
 
