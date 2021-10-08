@@ -10,7 +10,7 @@ With this framework you can mint NFTs, manage their metadata resources with [Pin
 
 This project seeks to demonstrate how NFTs can be connected with the real world via computer terminal connections like USB cameras and basically any hardware or software that can be accessed through a linux terminal. If your device can be accessed from a POSIX shell, Lemonade Stand can hook it up with an NFT. Lemonade stand reacts to user interactions with NFTs via their transaction events. Every time the NFT is purchased, transfered or operated on in any way, it's possible to generate an event that Lemonade Stand can read and react to. This allows for an enormous range of possibilities.
 
-This means NFTs can be used as an efficient currency for purchasing units of processing power or energy consuption. We can program Lemonade Stand to generate files for the purchaser, as a result of the purchase being made. This means clients would be paying for the work a machine is doing, that they want done, which just makes sense from a resource-consumption perspective, and from a financial perspective.
+This means NFTs can be used as an efficient currency for purchasing units of processing power or energy consuption. We can program Lemonade Stand to generate files for the purchaser, as a result of the purchase being made. This means clients would be paying for the work a machine is doing, that they want done, which just makes sense from a resource-consumption perspective, and from a financial perspective. The principle here is that of novelty vending machines: the buyer only has access to the randomly selected item after the purchase, not before.
 
 # Example
 
