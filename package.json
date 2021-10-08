@@ -1,0 +1,21 @@
+{
+  "name": "deployer",
+  "version": "1.0.0",
+  "description": "deploys NFTs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.23",
+    "axios": "^0.21.4",
+    "child-process": "^1.0.2",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.6.0"
+  }
+}
