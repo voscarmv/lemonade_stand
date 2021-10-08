@@ -24,7 +24,7 @@ This opens up the possibility to generate NFTs on-demand with any type of softwa
 
 # Why not just use ChainLink?
 
-Too expensive. This project seeks to empower developers and users by taking it away from centralized services, and distributing it to their homes and offices. After all, distribution one of the cornerstones of cryptocurrency.
+Too expensive. This project seeks to empower developers and users by taking power away from centralized services, and distributing it to their homes and offices. After all, distribution is of the cornerstones of cryptocurrency!
 
 # Usage
 
