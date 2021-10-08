@@ -18,7 +18,7 @@ This means NFTs can be used as an efficient currency for purchasing units of pro
 
 **Lemonade Stand is cheap and requires 0 fees.**
 
-ChanLink is just too expensive. This project seeks to empower developers and users by taking power away from centralized services, and distributing it to their homes and offices (in accordance to blockchain design principles). Lemonade Stand can run in a standard home PC running linux connected to the internet. Or you can host it in your own virtual machine to guarantee uptime.
+ChanLink is just too expensive. This project seeks to empower developers and users by taking power away from centralized services, and distributing it to their homes and offices (in accordance to blockchain design principles). Lemonade Stand can run in a standard home PC running linux connected to the internet. Or you can host it in your own online virtual machine to guarantee uptime.
 
 The point here is to give ownership back to the hobbyist and the practicing developer, as opposed to drowning creative and potentially good projects in unreachable fees.
 
