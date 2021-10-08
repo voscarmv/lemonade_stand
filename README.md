@@ -26,7 +26,7 @@ This opens up the possibility to generate NFTs on-demand with any type of softwa
 
 # Why not just use ChainLink?
 
-Too expensive. This project seeks to empower developers and users by taking power away from centralized services, and distributing it to their homes and offices. After all, distribution is of the cornerstones of cryptocurrency!
+Too expensive. This project seeks to empower developers and users by taking power away from centralized services, and distributing it to their homes and offices (in accordance to blockchain design principles). Lemonade Stand can run in a standard home PC running linux connected to the internet. Or you can host it in your own virtual machine to guarantee uptime. The point here is to give ownership back to the hobbyist and the practicing developer, as opposed to drowning creative and potentially good projects in unreachable fees.
 
 # Usage
 
