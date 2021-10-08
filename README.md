@@ -8,7 +8,7 @@ With this framework you can mint NFTs, manage their metadata resources with Pina
 
 # Use case
 
-This project seeks to demonstrate how NFTs can be connected with the real world via computer terminal connections like USB. With Lemonade Stand, you are able to generate NFTs on the fly, when your clients purchase them from you. Lemonade Stand allows you to use devices like USB cameras, bluetooth-controlled peripherials, and basically any hardware or software that can be accessed through a linux terminal.
+This project seeks to demonstrate how NFTs can be connected with the real world via computer terminal connections like USB. With Lemonade Stand, you are able to generate NFTs on the fly, when your clients purchase them from you. Lemonade Stand allows you to use devices like USB cameras, bluetooth-controlled peripherials, and basically any hardware or software that can be accessed through a linux terminal, to generate and deploy NFTs.
 
 # Example
 
