@@ -4,7 +4,7 @@
 
 # Introduction
 
-With this framework you can mint NFTs, manage their metadata resources with Pinata IPFS and [this dedicated Rails API](https://www.github.com/voscarmv/pinata_api), and list them for sale on OpenSea.
+With this framework you can mint NFTs, manage their metadata resources with [Pinata](https://pinata.cloud) IPFS and [this dedicated Rails API](https://www.github.com/voscarmv/pinata_api), and list them for sale on OpenSea.
 
 # Use case
 
