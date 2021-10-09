@@ -36,7 +36,9 @@ This opens up the possibility to generate NFTs on-demand with any type of softwa
 
 # Limitations
 
-This project is intended as a framework for casual NFT developers and hobbyists. But the intention is for this NFT server model to serve as a distributed unit of user interaction. One way around the possibility of a DOS due to high demand (wherein the queue would grow too long for the `dispatcher.js` to serve in a reasonable time frame) would be to limit the minting frequency. That way, there is a guaranteed daily limit to the volume of information the dispatcher has to serve.
+This project is intended as a framework for casual NFT developers and hobbyists. This project comes at a time when beginner-friendly projects are paramount to the goal of mass adoption of blockchain technology.
+
+The more technical intention is for this NFT server model to serve as a distributed unit of user interaction. One way around the possibility of a DOS due to high demand (wherein the queue would grow too long for the `dispatcher.js` to serve in a reasonable time frame) would be to limit the minting frequency. That way, there is a guaranteed daily limit to the volume of information the dispatcher has to serve.
 
 A way to extend Lemonade Stand would be to run multiple instances of it, connected to a load balancer. If the NFT is connected to some hardware device, parallel processing will be impossible unless more devices are hooked up to the network. So for example, if you'd like to double the amount of Spirit Box NFTs being processed in a day, you'd need 2 USB FM antennae.
 
