@@ -48,7 +48,7 @@ export const create = async (key, data) => {
       },
     );
     if (getAppointment.status !== 201) {
-      console.log(getAppointment.statusText);
+      console.log(getAppointment);
       process.exit(4);
     }
     console.log("created.");

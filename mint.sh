@@ -16,5 +16,5 @@ if test $MINTRESULT -eq 0 ; then
 fi
 
 
-"Exit with error code $MINTRESULT"
+echo "Exit with error code $MINTRESULT"
 exit $MINTRESULT
