@@ -3,13 +3,14 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 
 dotenv.config();
-console.log(`https://api-rinkeby.etherscan.io/api?module=logs&action=getLogs&address=${process.env.CONTRACT}&startblock=0&endblock=200&sort=asc&apikey=${process.env.APIKEY}`);
+console.log(`https://api-testnet.polygonscan.io/api?module=logs&action=getLogs&address=${process.env.CONTRACT}&startblock=0&endblock=200&sort=asc&apikey=${process.env.APIKEY}`);
 
 (
     async () => {
-        const response = await fetch(`https://api-rinkeby.etherscan.io/api?module=logs&action=getLogs&address=${process.env.CONTRACT}&startblock=0&endblock=200&sort=asc&apikey=${process.env.APIKEY}`);
+        'https://api-testnet.polygonscan.com/api?module=logs&action=getLogs&fromBlock=0&toBlock=200000000&address=0xbfF247714114B99FcD518F57cD71c39c75d86511&apikey=3GDYP85JP5FK6KVP3GPSS4I9A7UF2GY2ES' == `https://api-testnet.polygonscan.com/api?module=logs&action=getLogs&fromBlock=0&toBlock=200000000&address=${process.env.CONTRACT}&apikey=${process.env.APIKEY}` ? console.log("YES") : console.log("NO");
+        const response = await fetch(`https://api-testnet.polygonscan.com/api?module=logs&action=getLogs&fromBlock=0&toBlock=200000000&sort=asc&address=${process.env.CONTRACT}&apikey=${process.env.APIKEY}`);
         const body = await response.json();
-        // console.log(body.result);
+        console.log(body.result);
         const requests = body.result.filter(transaction => {
             if(transaction.hasOwnProperty('topics')){
                 if(transaction.topics.length < 4){

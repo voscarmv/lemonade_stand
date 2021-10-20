@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import util from 'util';
 
 dotenv.config();
-console.log(`https://api-rinkeby.etherscan.io/api?module=logs&action=getLogs&address=${process.env.CONTRACT}&startblock=0&endblock=200&sort=asc&apikey=${process.env.APIKEY}`);
+console.log(`https://api-testnet.polygonscan.io/api?module=logs&action=getLogs&address=${process.env.CONTRACT}&startblock=0&endblock=200&sort=asc&apikey=${process.env.APIKEY}`);
 
 (
     async () => {

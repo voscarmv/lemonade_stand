@@ -18,6 +18,7 @@ export const login = async (data) => {
 
     console.log("fetching");
     const loginJWT = getLogin.headers.get('authorization');
+    console.log(getLogin);
     if (loginJWT === null) {
       console.log(`Login failed`);
       process.exit(1);

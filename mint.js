@@ -5,7 +5,6 @@ dotenv.config();
 
 const MNEMONIC = process.env.MNEMONIC;
 const NODE_API_KEY = process.env.INFURA_KEY || process.env.ALCHEMY_KEY;
-const isInfura = !!process.env.INFURA_KEY;
 const NFT_CONTRACT_ADDRESS = process.env.NFT_CONTRACT_ADDRESS;
 const OWNER_ADDRESS = process.env.OWNER_ADDRESS;
 const NETWORK = process.env.NETWORK;
@@ -767,12 +766,12 @@ const NFT_ABI = [
 (
    async () => {
     const network =
-      NETWORK === "mainnet" || NETWORK === "live" ? "mainnet" : "rinkeby";
+      NETWORK === "mainnet" || NETWORK === "live" ? "mainnet" : "mumbai";
+    const chain =
+      NETWORK === "mainnet" || NETWORK === "live" ? 137 : 0x13881;
     const provider = new HDWalletProvider(
       MNEMONIC,
-      isInfura
-        ? "https://polygon-mainnet.infura.io/v3/" + NODE_API_KEY
-        : "https://eth-" + network + ".alchemyapi.io/v2/" + NODE_API_KEY
+      `https://polygon-${network}.infura.io/v3/${NODE_API_KEY}`
     );
     const web3Instance = new web3(provider);
     const nftContract = new web3Instance.eth.Contract(
@@ -784,12 +783,12 @@ const NFT_ABI = [
       // console.log(await nftContract.methods);
       let result = await nftContract.methods
         .mint(OWNER_ADDRESS)
-        .send({ from: OWNER_ADDRESS, chainId: 137 });
+        .send({ from: OWNER_ADDRESS, chainId: chain });
       console.log(result.events.Transfer.returnValues.tokenId);
       process.exit(0);
     } catch (e) {
       console.log('null');
-      // console.log(e);
+      console.log(e);
       process.exit(2);
     }
   }
