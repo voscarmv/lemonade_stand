@@ -6,6 +6,14 @@
 
 With this framework you can mint NFTs deployed with [squeeze](https://github.com/voscarmv/squeeze), manage their metadata resources with [Pinata](https://pinata.cloud) IPFS and [the Lemon API](https://www.github.com/voscarmv/lemon_api), and list them for sale on OpenSea.
 
+# We're live on Polygon Mainnet and Opensea!
+
+You can purchase one of the first 8 limited edition Spirit Box Vending NFTs here: https://opensea.io/collection/spirit-box-vending
+
+Once you purchase the Spirit Box Vending NFT, a Lemonade Stand instance running in a Raspberry Pi connected to an actual spirit box will generate your paranormal reading and upload it to IPFS for you. All you have to do is click the "Refresh" button on your newly purchased NFT on Opensea, and wait for it to update. Note: this might take several minutes.
+
+To learn how to purchase polygon NFTs on Opensea, check out this: https://support.opensea.io/hc/en-us/articles/1500012881642-How-do-I-transfer-ETH-from-Ethereum-to-Polygon-
+
 # Use case
 
 This project seeks to demonstrate how NFTs can be connected with the real world via computer hardware devices like USB cameras, microphones, antennas... basically any hardware or software that can be accessed through a linux terminal. If your device can be accessed from a POSIX shell, Lemonade Stand can hook it up to an NFT!
