@@ -14,6 +14,13 @@ Once you purchase the Spirit Box Vending NFT, a Lemonade Stand instance running 
 
 To learn how to purchase polygon NFTs on Opensea, check out this: https://support.opensea.io/hc/en-us/articles/1500012881642-How-do-I-transfer-ETH-from-Ethereum-to-Polygon-
 
+# How to buy?
+
+Check out [this video](https://www.youtube.com/watch?v=Cc-CScpmR7Q) presentation I made on how Lemonade Stand works with the example I built in this repository:
+
+[![image](https://user-images.githubusercontent.com/2739245/138198456-f02f1890-101e-4217-9e57-be25fdbfb484.png)](https://www.youtube.com/watch?v=Cc-CScpmR7Q)
+
+
 # Use case
 
 This project seeks to demonstrate how NFTs can be connected with the real world via computer hardware devices like USB cameras, microphones, antennas... basically any hardware or software that can be accessed through a linux terminal. If your device can be accessed from a POSIX shell, Lemonade Stand can hook it up to an NFT!
